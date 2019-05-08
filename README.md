@@ -2,6 +2,9 @@
 
 <img src = "https://github.com/LadyWinterD/SuperChargePowerBI/blob/master/IMG/SuperPowerBi.JPG">
 
+GitBook https://ladywinter.gitbook.io/superchangepowerbi/
+
+
 Chapters
 
 
