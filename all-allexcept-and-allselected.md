@@ -6,13 +6,13 @@
 Total ALL Products = COUNTROWS(ALL(Products))
 ```
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 ```text
 Total Global Sales = CALCULATE([Total Sales],ALL(Territories))
 ```
 
-![](.gitbook/assets/image%20%2834%29.png)
+![](.gitbook/assets/image%20%2836%29.png)
 
 * % of Global Sales 
 
@@ -20,7 +20,7 @@ Total Global Sales = CALCULATE([Total Sales],ALL(Territories))
 % of Global Sales = DIVIDE([Total Sales],[Total Global Sales])
 ```
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 ### Quick Measures Option
 
@@ -60,7 +60,7 @@ DIVIDE([Total Sales],[Total Selected Territories])
  ))
 ```
 
-![](.gitbook/assets/image%20%2840%29.png)
+![](.gitbook/assets/image%20%2842%29.png)
 
 ### Practice Exercises
 
@@ -78,7 +78,7 @@ DIVIDE([Total Sales],
 (CALCULATE([Total Sales],ALLSELECTED(Customers))))
 ```
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 {% hint style="info" %}
 ALLSELECTED\(\) Removes the filters from the matrix but respect the filters in the slicer.
@@ -86,5 +86,49 @@ ALLSELECTED\(\) Removes the filters from the matrix but respect the filters in t
 
 * Total Sales for All Days Selected Dates
 
+```text
+Total Sales for All Days Selected Dates = 
+CALCULATE([Total Sales],ALLSELECTED('Calendar'))
 
+% Sales for ALL Days Selected Dates = 
+DIVIDE([Total Sales],[Total Sales for All Days Selected Dates])
+```
+
+### ALLEXCEPT\(\)
+
+![](.gitbook/assets/image%20%2832%29.png)
+
+![](.gitbook/assets/image%20%2846%29.png)
+
+```text
+Total Orders ALL Customers = CALCULATE([Total Order Quantity],all(Customers))
+```
+
+```text
+Baseline order of All customer orders = CALCULATE([Total Order Quantity],
+ALLEXCEPT(Customers,Customers[Occupation]))
+```
+
+```text
+% Baseline % this Occupation is of All customer orders =
+ DIVIDE([Baseline order of All customer orders],[Total Orders ALL Customers])
+
+```
+
+```text
+Total Orders Selected Customers =
+ CALCULATE([Total Order Quantity],ALLSELECTED(Customers))
+```
+
+```text
+Occupation % of Selected Customers = DIVIDE([Total Order Quantity],[Total Orders Selected Customers])
+
+```
+
+```text
+Percentage Point Variation to Baseline = 
+[Occupation % of Selected Customers] -[Baseline % this Occupation is of All customer orders]
+```
+
+![](.gitbook/assets/image%20%2814%29.png)
 

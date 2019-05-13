@@ -17,7 +17,7 @@ Total Sales = SUM(Sales[ExtendedAmount])
 
 Then you can see the total sales in the matrix.
 
-![](.gitbook/assets/image%20%2837%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 ### Practice Exercises-SUM\(\)
 
@@ -65,7 +65,7 @@ Total Order Quantity = sum(Sales[OrderQuantity])
 
 ### Count of Occupation
 
-![](.gitbook/assets/image%20%2836%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
 ### 
 
@@ -83,7 +83,7 @@ Total Number of Products = COUNT(Products[ProductName])
 Total Number of Customers = COUNT(Customers[Name])
 ```
 
-![](.gitbook/assets/image%20%2843%29.png)
+![](.gitbook/assets/image%20%2847%29.png)
 
 ### COUNTROWS\(\)
 
@@ -115,7 +115,7 @@ Count of Occupation = DISTINCTCOUNT(Customers[Occupation])
 
 * Total Customers in Database DISTINCTCOUNT Version
 
-![](.gitbook/assets/image%20%2835%29.png)
+![](.gitbook/assets/image%20%2837%29.png)
 
 * Count of Country
 
@@ -131,7 +131,7 @@ Total Customer that have Purchased = DISTINCTCOUNT(Sales[CustomerKey])
 
 ![](.gitbook/assets/image%20%2811%29.png)
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2830%29.png)
 
 ### MAX\(\),MIN\(\),AND AVERAGE\(\)
 
@@ -181,7 +181,7 @@ Markup % = DIVIDE([Total Margin $],[Total Cost])
 Tax % = DIVIDE([Total Sales Tax Paid],[Total Sales])
 ```
 
-![](.gitbook/assets/image%20%2832%29.png)
+![](.gitbook/assets/image%20%2834%29.png)
 
 
 

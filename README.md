@@ -4,7 +4,7 @@
 
 There are some reading notes I have been done through I read this book, I hope It could be helpful for you .
 
-![](.gitbook/assets/image%20%2831%29.png)
+![](.gitbook/assets/image%20%2833%29.png)
 
 * [Loading data ](https://ladywinter.gitbook.io/superchargepowerbi/loading-data)
 * [Measures](https://ladywinter.gitbook.io/superchargepowerbi/measures)
