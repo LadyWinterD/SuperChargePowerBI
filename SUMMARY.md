@@ -10,4 +10,5 @@
 * [IF\(\),SWITCH\(\),and FIND\(\)](if-switch-and-find.md)
 * [VALUES\(\),HASONEVALUE\(\),SELECTEDVALUE\(\),and CONCATENATEX\(\)](values-hasonevalue-selectedvalue-and-concatenatex.md)
 * [ALL\(\), ALLEXCEPT\(\), and ALLSELECTED\(\)](all-allexcept-and-allselected.md)
+* [FILTER\(\)](filter.md)
 

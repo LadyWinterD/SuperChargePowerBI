@@ -98,7 +98,7 @@ DIVIDE([Total Sales],[Total Sales for All Days Selected Dates])
 
 ![](.gitbook/assets/image%20%2832%29.png)
 
-![](.gitbook/assets/image%20%2846%29.png)
+![](.gitbook/assets/image%20%2847%29.png)
 
 ```text
 Total Orders ALL Customers = CALCULATE([Total Order Quantity],all(Customers))
