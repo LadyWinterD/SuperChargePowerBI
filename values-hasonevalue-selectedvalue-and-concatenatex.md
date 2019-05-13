@@ -18,7 +18,7 @@ HASONEVALUE('Calendar'[MonthName]),VALUES('Calendar'[MonthName])
 =IF(Logical Test, Result if True,[Result if False])
 ```
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](.gitbook/assets/image%20%2824%29.png)
 
 ### SELECTEDVALUE\(\)
 
@@ -31,7 +31,7 @@ SELECTEDVALUE('Calendar'[MonthName])
 
 ### CONCATENATEX\(\)
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
 ```text
 Month Name(Values) = CONCATENATEX(VALUES('Calendar'[MonthName]),[MonthName],",")
@@ -44,6 +44,29 @@ Numver of Color Variants = COUNTROWS(VALUES(Products[Color]))
 ```
 
 * Number of Sub Categories
+
+```text
+Number of Size Ranges = COUNTROWS(VALUES(Products[SizeRange]))
+Number of Sub Categories = COUNTROWS(VALUES(Products[ProductSubcategoryKey]))
+```
+
+![](.gitbook/assets/image%20%2842%29.png)
+
+* Product Category 
+
+```text
+Product category = 
+IF(HASONEVALUE(Products[Category]),VALUES(Products[Category]))
+```
+
+* Product Subcategory 
+
+```text
+Product subcategory = 
+IF(HASONEVALUE(Products[subCategory]),VALUES(Products[subCategory]))
+```
+
+![](.gitbook/assets/image%20%2827%29.png)
 
 
 

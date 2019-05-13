@@ -40,15 +40,15 @@ Power BI guessing which relationships should be used, these automatically create
 
 ### Joining tables
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
 ### Editing Query
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 ### Remove the three fiscal solumns
 
-![](.gitbook/assets/image%20%2832%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
 ### Click Close & Apply and save the pbix workbook.
 
@@ -58,17 +58,17 @@ Power BI guessing which relationships should be used, these automatically create
 
 ### Importing new tables 
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 ### Changing the name to SubCategory
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ### It has been connected automatically , you can see the relationships as below, but we don't need SubCategory table any more, just DELETED it.
 
-![](.gitbook/assets/image%20%2833%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 
 
