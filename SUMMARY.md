@@ -11,4 +11,5 @@
 * [VALUES\(\),HASONEVALUE\(\),SELECTEDVALUE\(\),and CONCATENATEX\(\)](values-hasonevalue-selectedvalue-and-concatenatex.md)
 * [ALL\(\), ALLEXCEPT\(\), and ALLSELECTED\(\)](all-allexcept-and-allselected.md)
 * [FILTER\(\)](filter.md)
+* [Time Intelligence](time-intelligence.md)
 
