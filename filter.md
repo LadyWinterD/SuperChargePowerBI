@@ -7,7 +7,7 @@ Total Customers with Income of $80,000 or above =
 COUNTROWS(FILTER(Customers,Customers[YearlyIncome]>=80000))
 ```
 
-![](.gitbook/assets/image%20%2853%29.png)
+![](.gitbook/assets/image%20%2854%29.png)
 
 ```text
 Customers with sales Greater Than $5,000 Version2 =
@@ -30,7 +30,7 @@ Count of Products That Have Some Sales but Less Than $10,000 =
 CALCULATE(COUNTROWS(Products),FILTER(Products,[Total Sales]<= 10000 && [Total Sales] > 0))
 ```
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 
 
