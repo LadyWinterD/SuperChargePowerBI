@@ -10,7 +10,7 @@ Day Type = if('Calendar'[DayNumberOfWeek]=1||'Calendar'[DayNumberOfWeek]=7,
 )
 ```
 
-![](.gitbook/assets/image%20%2867%29.png)
+![](.gitbook/assets/image%20%2868%29.png)
 
 ### Practice 
 
