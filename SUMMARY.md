@@ -12,4 +12,6 @@
 * [ALL\(\), ALLEXCEPT\(\), and ALLSELECTED\(\)](all-allexcept-and-allselected.md)
 * [FILTER\(\)](filter.md)
 * [Time Intelligence](time-intelligence.md)
+* [RELATED\(\) and RELATEDTABLE\(\)](related-and-relatedtable.md)
+* [Disconnected Tables](disconnected-tables.md)
 

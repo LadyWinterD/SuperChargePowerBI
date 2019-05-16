@@ -14,9 +14,9 @@ You will have 5 tables after you unzip it.
 
 You can import it in Power BI Desktop.
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 
 
@@ -40,15 +40,15 @@ Power BI guessing which relationships should be used, these automatically create
 
 ### Joining tables
 
-![](.gitbook/assets/image%20%2831%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
 ### Editing Query
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
 ### Remove the three fiscal solumns
 
-![](.gitbook/assets/image%20%2852%29.png)
+![](.gitbook/assets/image%20%2862%29.png)
 
 ### Click Close & Apply and save the pbix workbook.
 
@@ -58,17 +58,17 @@ Power BI guessing which relationships should be used, these automatically create
 
 ### Importing new tables 
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 ### Changing the name to SubCategory
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](.gitbook/assets/image%20%2830%29.png)
 
 ### It has been connected automatically , you can see the relationships as below, but we don't need SubCategory table any more, just DELETED it.
 
-![](.gitbook/assets/image%20%2853%29.png)
+![](.gitbook/assets/image%20%2864%29.png)
 
 
 
