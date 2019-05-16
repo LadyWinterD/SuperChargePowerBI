@@ -2,7 +2,7 @@
 
 Turn off auto date/time
 
-![](.gitbook/assets/image%20%2836%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 ```text
 Total Sales LY = 
@@ -13,7 +13,7 @@ CALCULATE([Total Sales],SAMEPERIODLASTYEAR('Calendar'[Date]))
 Total Sales YTD = TOTALYTD([Total Sales],'Calendar'[Date])
 ```
 
-![](.gitbook/assets/image%20%2845%29.png)
+![](.gitbook/assets/image%20%2848%29.png)
 
 * Total Sales Month to Date
 
@@ -47,11 +47,11 @@ Total Sales Previous Quarter
 = CALCULATE([Total Sales],PREVIOUSQUARTER('Calendar'[Date]))
 ```
 
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%282%29.png)
 
-![](.gitbook/assets/image%20%2855%29.png)
+![](.gitbook/assets/image%20%2859%29.png)
 
-![](.gitbook/assets/image%20%2830%29.png)
+![](.gitbook/assets/image%20%2833%29.png)
 
 ```text
 Total Sales YTD Manual =
@@ -66,7 +66,7 @@ CALCULATE (
 
 ```
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 ```text
 Total Sales YTD Doesn't Work = 
@@ -101,7 +101,7 @@ CALCULATE([Total Sales],FILTER(ALL('Calendar'),
 
 ```
 
-![](.gitbook/assets/image%20%2848%29.png)
+![](.gitbook/assets/image%20%2851%29.png)
 
 October 31 2003, it has an ID of 853, so it can be thought of as:
 
@@ -148,9 +148,34 @@ IF (
 
 ```
 
-![](.gitbook/assets/image%20%2838%29.png)
+![](.gitbook/assets/image%20%2841%29.png)
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 It should be same if your formula is correct.
+
+* DATEADD
+
+```text
+Total Sales LY DATEADD = 
+CALCULATE([Total Sales],DATEADD('Calendar'[Date],-1,YEAR))
+```
+
+![](.gitbook/assets/image%20%281%29.png)
+
+* FIRSTDATE 
+
+```text
+First Date = FIRSTDATE('Calendar'[Date])
+```
+
+![](.gitbook/assets/image%20%2817%29.png)
+
+### List of other time intelligence functions
+
+![](.gitbook/assets/image%20%2854%29.png)
+
+![](.gitbook/assets/image%20%2829%29.png)
+
+
 
