@@ -6,13 +6,13 @@
 Total ALL Products = COUNTROWS(ALL(Products))
 ```
 
-![](.gitbook/assets/image%20%2825%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 ```text
 Total Global Sales = CALCULATE([Total Sales],ALL(Territories))
 ```
 
-![](.gitbook/assets/image%20%2857%29.png)
+![](.gitbook/assets/image%20%2858%29.png)
 
 * % of Global Sales 
 
@@ -20,7 +20,7 @@ Total Global Sales = CALCULATE([Total Sales],ALL(Territories))
 % of Global Sales = DIVIDE([Total Sales],[Total Global Sales])
 ```
 
-![](.gitbook/assets/image%20%2843%29.png)
+![](.gitbook/assets/image%20%2844%29.png)
 
 ### Quick Measures Option
 
@@ -60,7 +60,7 @@ DIVIDE([Total Sales],[Total Selected Territories])
  ))
 ```
 
-![](.gitbook/assets/image%20%2867%29.png)
+![](.gitbook/assets/image%20%2869%29.png)
 
 ### Practice Exercises
 
@@ -78,7 +78,7 @@ DIVIDE([Total Sales],
 (CALCULATE([Total Sales],ALLSELECTED(Customers))))
 ```
 
-![](.gitbook/assets/image%20%2833%29.png)
+![](.gitbook/assets/image%20%2834%29.png)
 
 {% hint style="info" %}
 ALLSELECTED\(\) Removes the filters from the matrix but respect the filters in the slicer.
@@ -96,9 +96,9 @@ DIVIDE([Total Sales],[Total Sales for All Days Selected Dates])
 
 ### ALLEXCEPT\(\)
 
-![](.gitbook/assets/image%20%2853%29.png)
+![](.gitbook/assets/image%20%2854%29.png)
 
-![](.gitbook/assets/image%20%2873%29.png)
+![](.gitbook/assets/image%20%2875%29.png)
 
 ```text
 Total Orders ALL Customers = CALCULATE([Total Order Quantity],all(Customers))
@@ -130,5 +130,5 @@ Percentage Point Variation to Baseline =
 [Occupation % of Selected Customers] -[Baseline % this Occupation is of All customer orders]
 ```
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](.gitbook/assets/image%20%2825%29.png)
 
