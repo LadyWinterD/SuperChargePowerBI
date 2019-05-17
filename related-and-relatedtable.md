@@ -16,17 +16,17 @@ For example, assume that your business has a new management layer, and need to a
 
 ###  
 
-![](.gitbook/assets/image%20%2865%29.png)
+![](.gitbook/assets/image%20%2868%29.png)
 
 1,change the name to Hemisphere and click load.
 
 2,Enter Data
 
-![](.gitbook/assets/image%20%2853%29.png)
+![](.gitbook/assets/image%20%2855%29.png)
 
 3, Set up the relationship
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
 4,Bring the data that resides in the Hemisphere column into a new calculated column inside the Territories table. 
 
@@ -34,7 +34,7 @@ For example, assume that your business has a new management layer, and need to a
 Hemisphere = RELATED(Hemisphere[Hemisphere])
 ```
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
 5, Hide from the report view
 

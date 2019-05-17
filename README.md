@@ -4,7 +4,7 @@
 
 There are some reading notes I have been done through I read this book, I hope It could be helpful for you .
 
-![](.gitbook/assets/image%20%2855%29.png)
+![](.gitbook/assets/image%20%2857%29.png)
 
 Useful Link:
 
