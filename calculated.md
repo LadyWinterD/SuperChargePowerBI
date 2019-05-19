@@ -31,7 +31,7 @@ Total Customers Born in January = CALCULATE([Total Number of Customers],MONTH(Cu
 Customers Earning at Least $100,000 per year = CALCULATE([Total Number of Customers],Customers[YearlyIncome]>=100000)
 ```
 
-![](.gitbook/assets/image%20%2859%29.png)
+![](.gitbook/assets/image%20%2861%29.png)
 
 ### Using CALCULATE\(\) over Multiple Tables
 
