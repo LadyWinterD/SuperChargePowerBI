@@ -14,4 +14,5 @@
 * [Time Intelligence](time-intelligence.md)
 * [RELATED\(\) and RELATEDTABLE\(\)](related-and-relatedtable.md)
 * [Disconnected Tables](disconnected-tables.md)
+* [Variables Syntax](variables-syntax.md)
 

@@ -4,7 +4,7 @@
 
 There are some reading notes I have been done through I read this book, I hope It could be helpful for you .
 
-![](.gitbook/assets/image%20%2859%29.png)
+![](.gitbook/assets/image%20%2862%29.png)
 
 
 
@@ -20,7 +20,7 @@ If you have read this book, you will find out the formula of Measure to Display 
 
 
 
-![](.gitbook/assets/image%20%2822%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
 {% hint style="info" %}
 But it is not correct, it is not gonna work, you should change the formula from \[Selected value\] to \[Selected Measure\].
@@ -47,7 +47,7 @@ SWITCH([Selected Measure],1,[Total Sales],2,[Total Cost],3,[Total Margin $])
 
 {% embed url="http://www.daxformatter.com/" caption="DAX Formatter" %}
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 #### Reference DAX
 
