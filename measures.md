@@ -2,7 +2,7 @@
 
 ## First Measure
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 * Create a new blank matrix and drop the column-Category to the Rows drop zone for matrix. 
 * Right click the table-product , create a new Measure. Type as below.
@@ -17,7 +17,7 @@ Total Sales = SUM(Sales[ExtendedAmount])
 
 Then you can see the total sales in the matrix.
 
-![](.gitbook/assets/image%20%2869%29.png)
+![](.gitbook/assets/image%20%2870%29.png)
 
 ### Practice Exercises-SUM\(\)
 
@@ -65,7 +65,7 @@ Total Order Quantity = sum(Sales[OrderQuantity])
 
 ### Count of Occupation
 
-![](.gitbook/assets/image%20%2868%29.png)
+![](.gitbook/assets/image%20%2869%29.png)
 
 ### 
 
@@ -83,7 +83,7 @@ Total Number of Products = COUNT(Products[ProductName])
 Total Number of Customers = COUNT(Customers[Name])
 ```
 
-![](.gitbook/assets/image%20%2884%29.png)
+![](.gitbook/assets/image%20%2885%29.png)
 
 ### COUNTROWS\(\)
 
@@ -115,7 +115,7 @@ Count of Occupation = DISTINCTCOUNT(Customers[Occupation])
 
 * Total Customers in Database DISTINCTCOUNT Version
 
-![](.gitbook/assets/image%20%2866%29.png)
+![](.gitbook/assets/image%20%2867%29.png)
 
 * Count of Country
 
@@ -129,9 +129,9 @@ Count of Country = DISTINCTCOUNT(Territories[Country])
 Total Customer that have Purchased = DISTINCTCOUNT(Sales[CustomerKey])
 ```
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](.gitbook/assets/image%20%2821%29.png)
 
-![](.gitbook/assets/image%20%2854%29.png)
+![](.gitbook/assets/image%20%2855%29.png)
 
 ### MAX\(\),MIN\(\),AND AVERAGE\(\)
 
@@ -181,7 +181,7 @@ Markup % = DIVIDE([Total Margin $],[Total Cost])
 Tax % = DIVIDE([Total Sales Tax Paid],[Total Sales])
 ```
 
-![](.gitbook/assets/image%20%2863%29.png)
+![](.gitbook/assets/image%20%2864%29.png)
 
 
 

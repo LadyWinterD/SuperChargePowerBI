@@ -6,7 +6,7 @@
 Total Sales Including Tax SUMX Version = SUMX(Sales,Sales[ExtendedAmount]+Sales[TaxAmt])
 ```
 
-![](.gitbook/assets/image%20%2828%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
 * Total Sales SUMX Version
 
@@ -26,11 +26,11 @@ TotalSales Including Tax SUMX Version = SUMX(sales,Sales[TaxAmt]+Sales[SalesAmou
 Total Sales Including Freight = SUMX(Sales,Sales[SalesAmount]+Sales[Freight])
 ```
 
-![](.gitbook/assets/image%20%2851%29.png)
+![](.gitbook/assets/image%20%2852%29.png)
 
 Filters 
 
-![](.gitbook/assets/image%20%2840%29.png)
+![](.gitbook/assets/image%20%2841%29.png)
 
 ### Dealer Margin
 
@@ -58,7 +58,7 @@ Average Tax Paid= AVERAGEX(Sales,Sales[TaxAmt])
 Average Safety Stock = AVERAGEX(Products,Products[SafetyStockLevel])
 ```
 
-![](.gitbook/assets/image%20%2853%29.png)
+![](.gitbook/assets/image%20%2854%29.png)
 
 
 
